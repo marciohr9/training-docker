@@ -1,0 +1,32 @@
+{
+  "name": "training-docker",
+  "version": "1.0.0",
+  "description": "projeto para treino básico de docker",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marciohr9/training-docker.git"
+  },
+  "keywords": [
+    "docker",
+    "docker-compose",
+    "node"
+  ],
+  "author": "márcio henrique",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/marciohr9/training-docker/issues"
+  },
+  "homepage": "https://github.com/marciohr9/training-docker#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "pug": "^3.0.2"
+  }
+}
